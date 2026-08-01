@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300">
+  <defs>
+    <linearGradient id="termGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0414"/>
+      <stop offset="100%" stop-color="#120a24"/>
+    </linearGradient>
+    <filter id="tglow">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="600" height="300" rx="16" fill="url(#termGrad)" stroke="#7c3aed" stroke-width="1.2"/>
+  <rect width="600" height="34" rx="16" fill="#15082a"/>
+  <rect y="17" width="600" height="17" fill="#15082a"/>
+  <circle cx="24" cy="17" r="6" fill="#ff3278" opacity="0.85"/>
+  <circle cx="46" cy="17" r="6" fill="#facc15" opacity="0.85"/>
+  <circle cx="68" cy="17" r="6" fill="#22d3ee" opacity="0.85"/>
+  <text x="280" y="22" font-family="'Courier New',monospace" font-size="12" fill="#7c3aed">erfix@core: ~</text>
+
+  <image href="assets/avatar.png" x="36" y="56" width="92" height="92" clip-path="inset(0 round 10px)" opacity="0.95"/>
+  <rect x="36" y="56" width="92" height="92" rx="10" fill="none" stroke="#a855f7" stroke-width="1.5"/>
+
+  <g font-family="'Courier New',monospace" font-size="14" fill="#c4b5fd">
+    <text x="144" y="84"><tspan fill="#22d3ee">$</tspan> whoami</text>
+    <text x="144" y="106"><tspan fill="#a855f7">→</tspan> Erfan Ashouri · Erfix</text>
+    <text x="144" y="130"><tspan fill="#22d3ee">$</tspan> cat role.txt</text>
+    <text x="144" y="152"><tspan fill="#a855f7">→</tspan> building autonomous systems</text>
+  </g>
+
+  <rect x="36" y="170" width="528" height="2" fill="#7c3aed" opacity="0.3"/>
+
+  <g font-family="'Courier New',monospace" font-size="12.5" fill="#c4b5fd">
+    <text x="36" y="200" fill="#a855f7">STACK</text>
+    <text x="36" y="222">Python · AI Agents · n8n · JavaScript · Docker</text>
+    <text x="36" y="244" fill="#a855f7">FOCUS</text>
+    <text x="36" y="266">tool-use · multi-agent · RAG · API orchestration</text>
+  </g>
+  <rect x="452" y="262" width="112" height="22" rx="11" fill="#22d3ee" opacity="0.12" stroke="#22d3ee" stroke-width="1"/>
+  <text x="464" y="277" font-family="'Courier New',monospace" font-size="11" fill="#22d3ee">● active now</text>
+</svg>

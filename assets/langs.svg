@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="260" viewBox="0 0 360 260">
+<rect width="360" height="260" rx="14" fill="#0b0420"/>
+<rect width="360" height="260" rx="14" fill="none" stroke="#22d3ee" stroke-opacity="0.3"/>
+<text x="20" y="26" font-family="monospace" font-size="13" fill="#22d3ee">🈷️ LANGUAGES</text>
+<text x="20" y="64" font-family="monospace" font-size="11" fill="#fff">Python</text>
+<text x="340" y="64" text-anchor="end" font-family="monospace" font-size="11" fill="#a855f7">78%</text>
+<rect x="20" y="70" width="320" height="6" rx="3" fill="#141430"/>
+<rect x="20" y="70" width="248.9" height="6" rx="3" fill="#a855f7" opacity="0.3"/>
+<rect x="20" y="70" width="0" height="6" rx="3" fill="#a855f7">
+  <animate attributeName="width" values="0;248.9" dur="2s" repeatCount="indefinite" begin="0.0s"/>
+</rect>
+<text x="20" y="98" font-family="monospace" font-size="11" fill="#fff">JavaScript</text>
+<text x="340" y="98" text-anchor="end" font-family="monospace" font-size="11" fill="#22d3ee">22%</text>
+<rect x="20" y="104" width="320" height="6" rx="3" fill="#141430"/>
+<rect x="20" y="104" width="71.1" height="6" rx="3" fill="#22d3ee" opacity="0.3"/>
+<rect x="20" y="104" width="0" height="6" rx="3" fill="#22d3ee">
+  <animate attributeName="width" values="0;71.1" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+</rect>
+</svg>

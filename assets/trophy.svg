@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="160" viewBox="0 0 640 160">
+<rect width="640" height="160" rx="14" fill="#0b0420"/>
+<rect width="640" height="160" rx="14" fill="none" stroke="#a855f7" stroke-opacity="0.35"/>
+<text x="20" y="26" font-family="monospace" font-size="13" fill="#fff">🏆 STAT TROPHY</text>
+<text x="70.0" y="72" text-anchor="middle" font-family="monospace" font-size="26" fill="#22d3ee">📦</text>
+<text x="70.0" y="102" text-anchor="middle" font-family="monospace" font-size="21" fill="#fff" font-weight="bold">13</text>
+<text x="70.0" y="121" text-anchor="middle" font-family="monospace" font-size="10" fill="#9d9dc8">REPOS</text>
+<text x="170.0" y="72" text-anchor="middle" font-family="monospace" font-size="26" fill="#22d3ee">⭐</text>
+<text x="170.0" y="102" text-anchor="middle" font-family="monospace" font-size="21" fill="#fff" font-weight="bold">3</text>
+<text x="170.0" y="121" text-anchor="middle" font-family="monospace" font-size="10" fill="#9d9dc8">STARS</text>
+<text x="270.0" y="72" text-anchor="middle" font-family="monospace" font-size="26" fill="#22d3ee">🍴</text>
+<text x="270.0" y="102" text-anchor="middle" font-family="monospace" font-size="21" fill="#fff" font-weight="bold">0</text>
+<text x="270.0" y="121" text-anchor="middle" font-family="monospace" font-size="10" fill="#9d9dc8">FORKS</text>
+<text x="370.0" y="72" text-anchor="middle" font-family="monospace" font-size="26" fill="#22d3ee">💬</text>
+<text x="370.0" y="102" text-anchor="middle" font-family="monospace" font-size="21" fill="#fff" font-weight="bold">9</text>
+<text x="370.0" y="121" text-anchor="middle" font-family="monospace" font-size="10" fill="#9d9dc8">COMMITS</text>
+<text x="470.0" y="72" text-anchor="middle" font-family="monospace" font-size="26" fill="#22d3ee">👥</text>
+<text x="470.0" y="102" text-anchor="middle" font-family="monospace" font-size="21" fill="#fff" font-weight="bold">2</text>
+<text x="470.0" y="121" text-anchor="middle" font-family="monospace" font-size="10" fill="#9d9dc8">FOLLOWERS</text>
+<text x="570.0" y="72" text-anchor="middle" font-family="monospace" font-size="26" fill="#22d3ee">🚀</text>
+<text x="570.0" y="102" text-anchor="middle" font-family="monospace" font-size="21" fill="#fff" font-weight="bold">2</text>
+<text x="570.0" y="121" text-anchor="middle" font-family="monospace" font-size="10" fill="#9d9dc8">FOLLOWING</text>
+<line x1="20" y1="136" x2="620" y2="136" stroke="#22d3ee" stroke-opacity="0.2"/>
+<rect x="20" y="140" width="0" height="3" rx="1.5" fill="url(#tg)">
+  <animate attributeName="width" values="0;600" dur="4s" repeatCount="indefinite"/>
+</rect>
+<defs><linearGradient id="tg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a855f7"/><stop offset="0.5" stop-color="#22d3ee"/><stop offset="1" stop-color="#ff3278"/></linearGradient></defs>
+</svg>

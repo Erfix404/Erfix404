@@ -1,0 +1,24 @@
+name: Update Stats
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats
+        run: python3 .github/gen-stats.py
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "📊 auto-update stats"
+          commit_user_name: Erfix404
+          commit_user_email: erfix404@gmail.com

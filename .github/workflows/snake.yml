@@ -1,0 +1,29 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: Erfix404
+          outputs: |
+            assets/github-contribution-grid-snake.svg
+            assets/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🐍 update contribution snake"
+          commit_user_name: Erfix404
+          commit_user_email: erfix404@gmail.com

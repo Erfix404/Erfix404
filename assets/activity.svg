@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="240" viewBox="0 0 620 240">
+<rect width="620" height="240" rx="14" fill="#0b0420"/>
+<rect width="620" height="240" rx="14" fill="none" stroke="#ff3278" stroke-opacity="0.35"/>
+<text x="20" y="26" font-family="monospace" font-size="13" fill="#ff3278">⚡ RECENT ACTIVITY</text>
+<text x="20" y="56" font-family="monospace" font-size="11" fill="#fff" opacity="0.9">🌱 created master in `agentcap` · 2026-07-27</text>
+<text x="20" y="84" font-family="monospace" font-size="11" fill="#fff" opacity="0.9">🌱 created main in `ai-pentest-agent` · 2026-07-27</text>
+<text x="20" y="112" font-family="monospace" font-size="11" fill="#fff" opacity="0.9">🌱 created main in `agent-circuit-breaker` · 2026-07-27</text>
+<text x="20" y="140" font-family="monospace" font-size="11" fill="#fff" opacity="0.9">🌱 created main in `llm-cost-intelligence` · 2026-07-27</text>
+<text x="20" y="226" font-family="monospace" font-size="9" fill="#22d3ee" opacity="0.6">refreshed every 6h by GitHub Actions</text>
+</svg>

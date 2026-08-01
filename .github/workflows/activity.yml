@@ -1,0 +1,26 @@
+name: Update Latest Activity
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  activity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update activity section
+        run: python3 .github/update-activity.py
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "📡 update latest activity"
+          commit_user_name: Erfix404
+          commit_user_email: erfix404@gmail.com

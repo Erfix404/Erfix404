@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#02050a"/>
+      <stop offset="50%" stop-color="#06121f"/>
+      <stop offset="100%" stop-color="#02050a"/>
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.4"/>
+      <stop offset="60%" stop-color="#22d3ee" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow2">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#22d3ee" opacity="0.03"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="400" fill="url(#bg2)"/>
+  <rect width="1200" height="400" fill="url(#scanlines)"/>
+
+  <!-- faint circles -->
+  <circle cx="600" cy="200" r="230" fill="none" stroke="#22d3ee" stroke-width="0.8" opacity="0.12"/>
+  <circle cx="600" cy="200" r="320" fill="none" stroke="#7c3aed" stroke-width="0.6" opacity="0.1"/>
+
+  <!-- center avatar with halo (safe zone: GitHub overlays avatar bottom-center) -->
+  <circle cx="600" cy="185" r="130" fill="url(#halo)">
+    <animate attributeName="r" values="130;150;130" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="185" r="85" fill="none" stroke="#22d3ee" stroke-width="2" stroke-dasharray="14 10" opacity="0.7" filter="url(#glow2)">
+    <animateTransform attributeName="transform" type="rotate" from="0 600 185" to="360 600 185" dur="16s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="185" r="96" fill="none" stroke="#7c3aed" stroke-width="1" opacity="0.5">
+    <animateTransform attributeName="transform" type="rotate" from="360 600 185" to="0 600 185" dur="24s" repeatCount="indefinite"/>
+  </circle>
+  <text x="600" y="192" text-anchor="middle" font-family="'Courier New',monospace" font-size="15" fill="#22d3ee" filter="url(#glow2)">~/erfix</text>
+
+  <!-- title -->
+  <text x="600" y="84" text-anchor="middle" font-size="64" font-weight="900" font-family="Arial,Helvetica,sans-serif" fill="url(#grad2)" filter="url(#glow2)">ERFIX</text>
+  <text x="600" y="112" text-anchor="middle" font-family="'Courier New',monospace" font-size="16" fill="#94a3b8">Erfan Ashouri — Autonomous Systems Engineer</text>
+
+  <!-- orbit chips -->
+  <g font-family="'Courier New',monospace" font-size="12">
+    <rect x="330" y="140" width="110" height="24" rx="12" fill="#0a1626" stroke="#22d3ee" stroke-width="1"/>
+    <text x="344" y="156" fill="#e2e8f0">🐍 Python</text>
+    <rect x="760" y="140" width="110" height="24" rx="12" fill="#0a1626" stroke="#a855f7" stroke-width="1"/>
+    <text x="774" y="156" fill="#e2e8f0">🤖 AI Agents</text>
+    <rect x="330" y="250" width="110" height="24" rx="12" fill="#0a1626" stroke="#f472b6" stroke-width="1"/>
+    <text x="344" y="266" fill="#e2e8f0">⚡ n8n</text>
+    <rect x="760" y="250" width="110" height="24" rx="12" fill="#0a1626" stroke="#22d3ee" stroke-width="1"/>
+    <text x="774" y="266" fill="#e2e8f0">🎧 Vibe Code</text>
+  </g>
+
+  <!-- side code -->
+  <g font-family="'Courier New',monospace" opacity="0.5">
+    <text x="70" y="120" font-size="12" fill="#22d3ee">def erfix():</text>
+    <text x="70" y="140" font-size="12" fill="#cbd5e1">    return "build"</text>
+    <text x="70" y="300" font-size="12" fill="#a855f7"># always shipping</text>
+    <text x="1040" y="120" font-size="12" fill="#22d3ee">$ git push</text>
+    <text x="1040" y="140" font-size="12" fill="#cbd5e1">$ deploy --now</text>
+    <text x="1040" y="300" font-size="12" fill="#a855f7">~ uptime: ∞</text>
+  </g>
+
+  <!-- bottom bar -->
+  <rect y="376" width="1200" height="24" fill="#02050a" opacity="0.9"/>
+  <text x="20" y="392" font-family="'Courier New',monospace" font-size="12" fill="#475569">ERFIX://PROFILE v3 — holographic edition</text>
+  <text x="980" y="392" font-family="'Courier New',monospace" font-size="12" fill="#22d3ee">status: online</text>
+</svg>

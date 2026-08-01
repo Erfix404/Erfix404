@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+  <defs>
+    <linearGradient id="snakeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#ff3278"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="300" fill="#0a0414"/>
+
+  <text x="40" y="52" font-family="'Courier New',monospace" font-size="22" font-weight="bold" fill="url(#titleGrad)">&gt; contribution grid</text>
+  <text x="40" y="74" font-family="'Courier New',monospace" font-size="13" fill="#7c3aed">~ automated daily · snake feeds on every commit ~</text>
+
+  <!-- snake path across the grid -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 40 210 C 90 210, 100 190, 150 190 C 200 190, 210 210, 260 210 C 310 210, 320 170, 370 170 C 420 170, 430 210, 480 210 C 530 210, 540 150, 590 150 C 640 150, 650 210, 700 210 C 750 210, 760 190, 810 190 C 840 190, 850 200, 860 200"
+          stroke="url(#snakeGrad)" stroke-width="7" filter="url(#glow)">
+      <animate attributeName="stroke-dashoffset" values="1400;0" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-dasharray" values="0 1400;1400 0" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 860 200 C 855 205, 848 205, 845 200 C 842 195, 848 192, 852 195"
+          stroke="#22d3ee" stroke-width="7" fill="#22d3ee" filter="url(#glow)"/>
+  </g>
+
+  <!-- fading tail -->
+  <g fill="#a855f7" opacity="0.5">
+    <circle cx="120" cy="210" r="2.5"/>
+    <circle cx="80" cy="210" r="2"/>
+    <circle cx="48" cy="210" r="1.5" opacity="0.4"/>
+  </g>
+
+  <!-- grid cells -->
+  <g fill="#1e1140">
+    <rect x="100" y="110" width="14" height="14" rx="2"/>
+    <rect x="160" y="110" width="14" height="14" rx="2"/>
+    <rect x="220" y="110" width="14" height="14" rx="2"/>
+    <rect x="280" y="110" width="14" height="14" rx="2"/>
+    <rect x="340" y="110" width="14" height="14" rx="2"/>
+    <rect x="400" y="110" width="14" height="14" rx="2"/>
+    <rect x="460" y="110" width="14" height="14" rx="2"/>
+    <rect x="520" y="110" width="14" height="14" rx="2"/>
+    <rect x="580" y="110" width="14" height="14" rx="2"/>
+    <rect x="640" y="110" width="14" height="14" rx="2"/>
+    <rect x="700" y="110" width="14" height="14" rx="2"/>
+    <rect x="760" y="110" width="14" height="14" rx="2"/>
+  </g>
+
+  <!-- typing cycle -->
+  <g font-family="'Courier New',monospace" font-size="15" fill="#c4b5fd">
+    <text x="40" y="270">
+      <tspan fill="#22d3ee">$</tspan> python -m erfix.agent --autonomous
+      <set attributeName="display" to="inline" begin="0s" dur="2.5s"/>
+      <set attributeName="display" to="none" begin="2.5s"/>
+    </text>
+    <text x="40" y="270" display="none">
+      <tspan fill="#22d3ee">$</tspan> npx erfix --vibe-mode
+      <set attributeName="display" to="inline" begin="2.5s" dur="2.5s"/>
+      <set attributeName="display" to="none" begin="5s"/>
+    </text>
+    <text x="40" y="270" display="none">
+      <tspan fill="#22d3ee">$</tspan> docker run erfix/agent:latest
+      <set attributeName="display" to="inline" begin="5s" dur="2.5s"/>
+      <set attributeName="display" to="none" begin="7.5s"/>
+    </text>
+    <text x="40" y="270" display="none">
+      <tspan fill="#22d3ee">$</tspan> pip install erfix.autonomous
+      <set attributeName="display" to="inline" begin="7.5s" dur="2.5s"/>
+      <set attributeName="display" to="none" begin="10s"/>
+    </text>
+    <text x="40" y="270" display="none">
+      <tspan fill="#22d3ee">$</tspan> systemctl start erfix.service
+      <set attributeName="display" to="inline" begin="10s" dur="2.5s"/>
+      <set attributeName="display" to="none" begin="12.5s"/>
+    </text>
+  </g>
+</svg>
