@@ -1,28 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="160" viewBox="0 0 640 160">
-<rect width="640" height="160" rx="14" fill="#0b0420"/>
-<rect width="640" height="160" rx="14" fill="none" stroke="#a855f7" stroke-opacity="0.35"/>
-<text x="20" y="26" font-family="monospace" font-size="13" fill="#fff">🏆 STAT TROPHY</text>
-<text x="70.0" y="72" text-anchor="middle" font-family="monospace" font-size="26" fill="#22d3ee">📦</text>
-<text x="70.0" y="102" text-anchor="middle" font-family="monospace" font-size="21" fill="#fff" font-weight="bold">13</text>
-<text x="70.0" y="121" text-anchor="middle" font-family="monospace" font-size="10" fill="#9d9dc8">REPOS</text>
-<text x="170.0" y="72" text-anchor="middle" font-family="monospace" font-size="26" fill="#22d3ee">⭐</text>
-<text x="170.0" y="102" text-anchor="middle" font-family="monospace" font-size="21" fill="#fff" font-weight="bold">3</text>
-<text x="170.0" y="121" text-anchor="middle" font-family="monospace" font-size="10" fill="#9d9dc8">STARS</text>
-<text x="270.0" y="72" text-anchor="middle" font-family="monospace" font-size="26" fill="#22d3ee">🍴</text>
-<text x="270.0" y="102" text-anchor="middle" font-family="monospace" font-size="21" fill="#fff" font-weight="bold">0</text>
-<text x="270.0" y="121" text-anchor="middle" font-family="monospace" font-size="10" fill="#9d9dc8">FORKS</text>
-<text x="370.0" y="72" text-anchor="middle" font-family="monospace" font-size="26" fill="#22d3ee">💬</text>
-<text x="370.0" y="102" text-anchor="middle" font-family="monospace" font-size="21" fill="#fff" font-weight="bold">9</text>
-<text x="370.0" y="121" text-anchor="middle" font-family="monospace" font-size="10" fill="#9d9dc8">COMMITS</text>
-<text x="470.0" y="72" text-anchor="middle" font-family="monospace" font-size="26" fill="#22d3ee">👥</text>
-<text x="470.0" y="102" text-anchor="middle" font-family="monospace" font-size="21" fill="#fff" font-weight="bold">2</text>
-<text x="470.0" y="121" text-anchor="middle" font-family="monospace" font-size="10" fill="#9d9dc8">FOLLOWERS</text>
-<text x="570.0" y="72" text-anchor="middle" font-family="monospace" font-size="26" fill="#22d3ee">🚀</text>
-<text x="570.0" y="102" text-anchor="middle" font-family="monospace" font-size="21" fill="#fff" font-weight="bold">2</text>
-<text x="570.0" y="121" text-anchor="middle" font-family="monospace" font-size="10" fill="#9d9dc8">FOLLOWING</text>
-<line x1="20" y1="136" x2="620" y2="136" stroke="#22d3ee" stroke-opacity="0.2"/>
-<rect x="20" y="140" width="0" height="3" rx="1.5" fill="url(#tg)">
-  <animate attributeName="width" values="0;600" dur="4s" repeatCount="indefinite"/>
-</rect>
-<defs><linearGradient id="tg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a855f7"/><stop offset="0.5" stop-color="#22d3ee"/><stop offset="1" stop-color="#ff3278"/></linearGradient></defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="150" viewBox="0 0 460 150">
+  <defs>
+    <linearGradient id="tcardg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ff3278" stop-opacity="0.05"/>
+    </linearGradient>
+    <filter id="tglow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="460" height="150" rx="14" fill="#0a0414" stroke="#22d3ee" stroke-width="1.2"/>
+  <rect width="460" height="150" rx="14" fill="url(#tcardg)"/>
+  <text x="22" y="32" font-family="'Courier New',monospace" font-size="14" font-weight="bold" fill="#22d3ee" filter="url(#tglow)">$ activity --last 7 days</text>
+  <rect x="22" y="58" width="40" height="60" rx="4" fill="#a855f7" opacity="0.85">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="42.0" y="52" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#c4b5fd">18</text>
+  <text x="42.0" y="134" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#7c3aed">MON</text>
+  <rect x="76" y="114" width="40" height="4" rx="4" fill="#22d3ee" opacity="0.85">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="96.0" y="108" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#c4b5fd">0</text>
+  <text x="96.0" y="134" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#7c3aed">TUE</text>
+  <rect x="130" y="114" width="40" height="4" rx="4" fill="#ff3278" opacity="0.85">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="150.0" y="108" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#c4b5fd">0</text>
+  <text x="150.0" y="134" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#7c3aed">WED</text>
+  <rect x="184" y="112" width="40" height="6" rx="4" fill="#a855f7" opacity="0.85">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="204.0" y="106" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#c4b5fd">2</text>
+  <text x="204.0" y="134" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#7c3aed">THU</text>
+  <rect x="238" y="105" width="40" height="13" rx="4" fill="#22d3ee" opacity="0.85">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="258.0" y="99" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#c4b5fd">4</text>
+  <text x="258.0" y="134" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#7c3aed">FRI</text>
+  <rect x="292" y="78" width="40" height="40" rx="4" fill="#ff3278" opacity="0.85">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="312.0" y="72" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#c4b5fd">12</text>
+  <text x="312.0" y="134" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#7c3aed">SAT</text>
+  <rect x="346" y="98" width="40" height="20" rx="4" fill="#a855f7" opacity="0.85">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="366.0" y="92" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#c4b5fd">6</text>
+  <text x="366.0" y="134" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#7c3aed">SUN</text>
 </svg>
