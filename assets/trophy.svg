@@ -9,30 +9,30 @@
   <rect width="460" height="150" rx="14" fill="#0a0414" stroke="#22d3ee" stroke-width="1.2"/>
   <rect width="460" height="150" rx="14" fill="url(#tcardg)"/>
   <text x="22" y="32" font-family="'Courier New',monospace" font-size="14" font-weight="bold" fill="#22d3ee" filter="url(#tglow)">$ activity --last 7 days</text>
-  <rect x="22" y="98" width="40" height="20" rx="4" fill="#a855f7" opacity="0.85">
+  <rect x="22" y="114" width="40" height="4" rx="4" fill="#a855f7" opacity="0.85">
     <animate attributeName="opacity" values="0.6;1;0.6" dur="2.2s" repeatCount="indefinite"/>
   </rect>
-  <text x="42.0" y="92" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#c4b5fd">1</text>
+  <text x="42.0" y="108" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#c4b5fd">0</text>
   <text x="42.0" y="134" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#7c3aed">MON</text>
-  <rect x="76" y="114" width="40" height="4" rx="4" fill="#22d3ee" opacity="0.85">
+  <rect x="76" y="58" width="40" height="60" rx="4" fill="#22d3ee" opacity="0.85">
     <animate attributeName="opacity" values="0.6;1;0.6" dur="2.2s" repeatCount="indefinite"/>
   </rect>
-  <text x="96.0" y="108" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#c4b5fd">0</text>
+  <text x="96.0" y="52" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#c4b5fd">3</text>
   <text x="96.0" y="134" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#7c3aed">TUE</text>
-  <rect x="130" y="58" width="40" height="60" rx="4" fill="#ff3278" opacity="0.85">
+  <rect x="130" y="98" width="40" height="20" rx="4" fill="#ff3278" opacity="0.85">
     <animate attributeName="opacity" values="0.6;1;0.6" dur="2.2s" repeatCount="indefinite"/>
   </rect>
-  <text x="150.0" y="52" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#c4b5fd">3</text>
+  <text x="150.0" y="92" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#c4b5fd">1</text>
   <text x="150.0" y="134" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#7c3aed">WED</text>
   <rect x="184" y="98" width="40" height="20" rx="4" fill="#a855f7" opacity="0.85">
     <animate attributeName="opacity" values="0.6;1;0.6" dur="2.2s" repeatCount="indefinite"/>
   </rect>
   <text x="204.0" y="92" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#c4b5fd">1</text>
   <text x="204.0" y="134" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#7c3aed">THU</text>
-  <rect x="238" y="98" width="40" height="20" rx="4" fill="#22d3ee" opacity="0.85">
+  <rect x="238" y="114" width="40" height="4" rx="4" fill="#22d3ee" opacity="0.85">
     <animate attributeName="opacity" values="0.6;1;0.6" dur="2.2s" repeatCount="indefinite"/>
   </rect>
-  <text x="258.0" y="92" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#c4b5fd">1</text>
+  <text x="258.0" y="108" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#c4b5fd">0</text>
   <text x="258.0" y="134" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#7c3aed">FRI</text>
   <rect x="292" y="114" width="40" height="4" rx="4" fill="#ff3278" opacity="0.85">
     <animate attributeName="opacity" values="0.6;1;0.6" dur="2.2s" repeatCount="indefinite"/>
