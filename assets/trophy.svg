@@ -12,17 +12,17 @@
   <rect x="22" y="58" width="40" height="60" rx="4" fill="#a855f7" opacity="0.85">
     <animate attributeName="opacity" values="0.6;1;0.6" dur="2.2s" repeatCount="indefinite"/>
   </rect>
-  <text x="42.0" y="52" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#c4b5fd">3</text>
+  <text x="42.0" y="52" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#c4b5fd">1</text>
   <text x="42.0" y="134" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#7c3aed">MON</text>
-  <rect x="76" y="98" width="40" height="20" rx="4" fill="#22d3ee" opacity="0.85">
+  <rect x="76" y="58" width="40" height="60" rx="4" fill="#22d3ee" opacity="0.85">
     <animate attributeName="opacity" values="0.6;1;0.6" dur="2.2s" repeatCount="indefinite"/>
   </rect>
-  <text x="96.0" y="92" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#c4b5fd">1</text>
+  <text x="96.0" y="52" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#c4b5fd">1</text>
   <text x="96.0" y="134" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#7c3aed">TUE</text>
-  <rect x="130" y="98" width="40" height="20" rx="4" fill="#ff3278" opacity="0.85">
+  <rect x="130" y="114" width="40" height="4" rx="4" fill="#ff3278" opacity="0.85">
     <animate attributeName="opacity" values="0.6;1;0.6" dur="2.2s" repeatCount="indefinite"/>
   </rect>
-  <text x="150.0" y="92" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#c4b5fd">1</text>
+  <text x="150.0" y="108" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#c4b5fd">0</text>
   <text x="150.0" y="134" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#7c3aed">WED</text>
   <rect x="184" y="114" width="40" height="4" rx="4" fill="#a855f7" opacity="0.85">
     <animate attributeName="opacity" values="0.6;1;0.6" dur="2.2s" repeatCount="indefinite"/>
