@@ -271,18 +271,20 @@ class Erfix404:
 
 
 
+
 <!-- LATEST-ACTIVITY:START -->
-**`2026-09-20`** · ⭐ starred [`erfnzdeh/Telegram-Serverless-Bot-Template`](https://github.com/erfnzdeh/Telegram-Serverless-Bot-Template)
+**`2026-09-21`** · DeleteEvent in [`Erfix404/tarjoman`](https://github.com/Erfix404/tarjoman)
 
-**`2026-09-19`** · ⭐ starred [`robbietilton/Compositor`](https://github.com/robbietilton/Compositor)
+**`2026-09-21`** · DeleteEvent in [`Erfix404/tarjoman`](https://github.com/Erfix404/tarjoman)
 
-**`2026-09-19`** · created **branch** `main` in [`Erfix404/OmniHunter`](https://github.com/Erfix404/OmniHunter)
+**`2026-09-21`** · DeleteEvent in [`Erfix404/tarjoman`](https://github.com/Erfix404/tarjoman)
 
-**`2026-09-17`** · ⭐ starred [`D4Vinci/Scrapling`](https://github.com/D4Vinci/Scrapling)
+**`2026-09-21`** · DeleteEvent in [`Erfix404/tarjoman`](https://github.com/Erfix404/tarjoman)
 
-**`2026-09-17`** · ⭐ starred [`Erfix404/tarjoman`](https://github.com/Erfix404/tarjoman)
+**`2026-09-21`** · DeleteEvent in [`Erfix404/tarjoman`](https://github.com/Erfix404/tarjoman)
 
 <!-- LATEST-ACTIVITY:END -->
+
 
 
 
