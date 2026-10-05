@@ -34,10 +34,10 @@
   </rect>
   <text x="258.0" y="108" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#c4b5fd">0</text>
   <text x="258.0" y="134" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#7c3aed">FRI</text>
-  <rect x="292" y="114" width="40" height="4" rx="4" fill="#ff3278" opacity="0.85">
+  <rect x="292" y="58" width="40" height="60" rx="4" fill="#ff3278" opacity="0.85">
     <animate attributeName="opacity" values="0.6;1;0.6" dur="2.2s" repeatCount="indefinite"/>
   </rect>
-  <text x="312.0" y="108" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#c4b5fd">0</text>
+  <text x="312.0" y="52" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#c4b5fd">1</text>
   <text x="312.0" y="134" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#7c3aed">SAT</text>
   <rect x="346" y="114" width="40" height="4" rx="4" fill="#a855f7" opacity="0.85">
     <animate attributeName="opacity" values="0.6;1;0.6" dur="2.2s" repeatCount="indefinite"/>
